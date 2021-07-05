@@ -1,0 +1,100 @@
+body{
+    font-family: 'Architects Daughter', cursive;
+    margin: 0;
+} 
+.top-banner{
+    background-image:linear-gradient(#ff63478a,#ffff0094), url(images/1427992233528.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+}
+.main-header{
+    display: flex;
+    margin-top: 8px;
+    background-image: linear-gradient(#ffff006e,#88c27447);
+}
+.brand-name{
+    display: inline;
+    color: white;
+}
+.main-header a{
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+}
+.main-header a:hover{
+    text-decoration: underline;
+}
+.main-header input{
+    border-radius: 5px;
+}
+.header-part-one{
+    width: 70%;
+    margin: 5px 20px;
+}
+.header-part-two{
+    width: 30%;
+    margin: 8px 20px;
+}
+.sub-header{
+    display: flex;
+    margin-bottom: 10px;
+}
+.half-width{
+    width: 50%;
+    margin-top: 65px;
+    margin-left: 6%;
+}
+.half-width p{
+    width: 50%;
+    font-size: 20px;
+}
+.half-width h1{
+    color: white;
+    font-size: 30px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon,tomato);
+    border-radius: 15px;
+    margin-left: 15px;
+    padding: 10px 30px;
+    color: white;
+    font-size: 15px;
+}
+.half-width img{
+    width: 70%;
+    
+    border-radius: 12px;
+    margin-top: 30px;
+}
+#support-area{
+    background-image: linear-gradient(#ffeb3bd4,#9c27b0a6,#0277bde3),url(images/chicken\ and\ beef.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8px 0;
+    min-height: 400px;
+}
+#support-area img{
+    max-height: 200px;
+}
+.recipe-header{
+    width: 50%;
+    margin: 15px 450px;
+    padding: 16px;
+}
+.recipe-header h1{
+    margin-left: 100px;
+}
+.recipe-item{
+    width: 20%;
+    margin-left: 3%;
+    padding: 15px;
+    box-shadow: 5px 5px 50px gray;
+    border-radius: 9px;
+}
+.recipe-item img{
+    width: 100%;
+    max-height: 130px;
+}
