@@ -17,13 +17,13 @@ body{
     display: inline;
     color: white;
 }
-.main-header a{
+a{
     text-decoration: none;
     margin: 5px;
     padding: 5px;
     color: white;
 }
-.main-header a:hover{
+a:hover{
     text-decoration: underline;
 }
 .main-header input{
@@ -79,6 +79,10 @@ body{
 #support-area img{
     max-height: 200px;
 }
+.area{
+    margin-top: 5px;
+    padding-top: 5px;
+}
 .recipe-header{
     width: 50%;
     margin: 15px 450px;
@@ -97,4 +101,39 @@ body{
 .recipe-item img{
     width: 100%;
     max-height: 130px;
+}
+.offer{
+    margin:0 3%;
+    width: 30%;
+    box-shadow: 10px 10px 60px gray;
+    border-radius: 5px;
+    padding: 2%;
+    text-align: center;
+}
+.offer img{
+    width: 80%;
+    max-height: 170px;
+}
+.offer-heading{
+    text-align: center;
+    padding-top: 14px;
+}
+.partner-area{
+    margin: 40px;
+    padding-top: 12px;
+    box-shadow: 10px 10px 60px gray;
+    border-radius: 7px;
+}
+.partner-zone{
+    margin-left: 95px;
+    padding-bottom: 15px;
+}
+footer{
+    background-color: deepskyblue;
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 3px;
+}
+footer h3{
+    color: yellow;
 }
